@@ -1,0 +1,54 @@
+@font-face {
+	font-family:"fixedsys";
+	src: url("../fonts/FSEX300.ttf") format("truetype");
+}
+@font-face {
+	font-family:"noodle";
+	src: url("../fonts/noodle.ttf") format("truetype");
+}
+div {
+    position:relative;
+	top: 400px;
+	margin:0 auto;
+	width: 350px;
+	height: 60px;
+	background-color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px
+}
+#icons {
+    position:relative;
+	top: 420px;
+	margin:0 auto;
+	width: 800px;
+	height: 60px;
+	background-color: #0000AC;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px
+}
+body {
+    background-color: #0000AC;
+	font-family: fixedsys;
+}
+h1 {
+	position: relative;
+	color: #ffffff;
+	top: 385px;
+}
+h2 {
+	color: #0000AC;
+}
+h3	{
+	position: relative;
+	margin: 0 auto;
+	top: 450px;
+	width: 500px;
+	height: 100px;
+	color: #ffffff;
+}
+a {
+	text-decoration:none;
+	color:#ffffff;
+}
