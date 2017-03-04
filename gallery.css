@@ -1,0 +1,49 @@
+@font-face {
+	font-family:"fixedsys";
+	src: url("../fonts/FSEX300.ttf") format("truetype");
+}
+@font-face {
+	font-family:"noodle";
+	src: url("../fonts/noodle.ttf") format("truetype");
+}
+div {
+    position:relative;
+	margin:0 auto;
+	width: 95%;
+	height: 40px;
+	background-color: #BFBFBF;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+	color: #000000;
+}
+body {
+    background-color: #000000;
+	font-family: fixedsys;
+}
+.text {
+	font-size: 200%;
+	padding-left: 75px;
+	color: #ffffff;
+}
+pre {
+	white-space:pre;
+}
+#lower {
+	position:fixed;
+	bottom:40px;
+	margin:0 auto;
+	left:0;
+	right:0;
+	width: 95%;
+	height: 40px;
+	text-align: left;
+	background-color: #BFBFBF;
+	vertical-align: middle;
+	color: #000000;
+}
+#lower span {
+	position:absolute;
+	bottom: -20px;
+	left: 0;
+}
