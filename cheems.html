@@ -1,0 +1,66 @@
+<style>
+.image {
+	position: absolute;
+	top: 50%;
+	left:50%;
+	width: 120px;
+	height: 120px;
+	margin: -60px 0 0 -60px;
+	-webkit-animation: 120s normal forwards zoomin ease-in;
+	animation: 160s normal forwards zoomin ease-in;
+	-webkit-transform-origin: center center 0;
+	transform-origin: center center 0;
+	-webkit-transform: scale(100);
+	transform: scale(100);
+}
+.spinner {
+    position: absolute;
+	top: 50%;
+	left:50%;
+	width: 120px;
+	height: 120px;
+	margin: -60px 0 0 -60px;
+	z-index: -1;
+    -webkit-animation: spin 6s infinite linear;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
+@-webkit-keyframes zoomin {
+		0% { -webkit-transform: scale(1); transform: scale(1); }
+		100 { -webkit-transform: scale(100); transform: scale (100) }
+}
+@keyframes zoomin {
+	0% { -webkit-transform: scale(1); transform: scale(1); }
+	100 { -webkit-transform: scale(100); transform: scale (100) }
+}
+div.a {
+	 font-family: "Comic Sans MS", cursive, sans-serif;
+	background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  text-align: center;
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  animation: rainbow 8s ease infinite;
+}
+@keyframes rainbow { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 50%}
+}
+
+</style>
+<body style="background-color:black;color:white;">
+<div class="spinner">
+<img src="cheems.png" class="image">
+</div>
+<iframe src="dorime.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+</iframe>
+<!-- <audio loop autoplay>
+  <source src="dorime.mp3" type="audio/mp3">
+Your browser does not support the audio tag.
+</audio> -->
+<div class="a">
+<h1>Uh-oh, you've been Dorime'd</h1>
+</div>
+</body>
