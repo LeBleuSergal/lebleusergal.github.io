@@ -48,16 +48,24 @@ div.a {
     50%{background-position:100% 25%}
     100%{background-position:0% 50%}
 }
-
+player {
+	position: absolute;
+	bottom: 0%;
+	left:50%;
+	width: 120px;
+	height: 30px;
+	}
 </style>
 <body style="background-color:black;color:white;">
 <div class="spinner">
 <img src="cheems.png" class="image">
 </div>
-<audio loop autoplay>
+<div class="player">
+<audio controls loop autoplay>
   <source src="dorime.mp3" type="audio/mp3">
 Your browser does not support the audio tag.
 </audio>
+	</div>
 <div class="a">
 <h1>Uh-oh, you've been Dorime'd</h1>
 </div>
